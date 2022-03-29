@@ -1,0 +1,48 @@
+.hero {
+    &__row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__column {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 244px 0 132px;
+        color: #fff;
+    }
+    &__hello {
+        margin: 21px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__name {
+        font-weight: 800;
+        font-size: 96px;
+        line-height: 127px;
+    }
+    &__web {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 47px;
+    }
+    &__contact {
+        margin-top: 23px;
+        button {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            height: 66px;
+            text-align: center;
+            min-width: 244px;
+            width: 100%;
+            border: 1px solid #F4FA1A;
+            box-sizing: border-box;
+            border-radius: 15px;
+            background-color: transparent;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

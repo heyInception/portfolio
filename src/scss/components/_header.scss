@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    background: #1A1A1A;
+    &__row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    &__logo {
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1;
+        color: #F4FA1A;
+        span {
+            color: #fff;
+        }
+    }
+    &__menu {
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            li {
+                padding: 0 23px;
+                a {
+                    font-size: 20px;
+                    font-weight: 900;
+                    line-height: 1;
+                    color: #fff;
+                }
+                &.active>a {
+                    color: #F4FA1A;
+                }
+            }
+        }
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.main {
+    padding-top: 102px;
+}
+
+.nav {
+    &__list {}
+    &__item {}
+    &__link {}
+}
